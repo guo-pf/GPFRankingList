@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21747D5B1EADE3BA00D0B875 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21747D5A1EADE3BA00D0B875 /* main.m */; };
+		21747D5E1EADE3BA00D0B875 /* GPFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21747D5D1EADE3BA00D0B875 /* GPFAppDelegate.m */; };
+		21747D611EADE3BA00D0B875 /* GPFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21747D601EADE3BA00D0B875 /* GPFViewController.m */; };
+		21747D641EADE3BB00D0B875 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21747D621EADE3BB00D0B875 /* Main.storyboard */; };
+		21747D661EADE3BB00D0B875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21747D651EADE3BB00D0B875 /* Assets.xcassets */; };
+		21747D691EADE3BB00D0B875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21747D671EADE3BB00D0B875 /* LaunchScreen.storyboard */; };
+		21747D741EADE3BB00D0B875 /* GPFRankingListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21747D731EADE3BB00D0B875 /* GPFRankingListTests.m */; };
+		21747D7F1EADE3BB00D0B875 /* GPFRankingListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21747D7E1EADE3BB00D0B875 /* GPFRankingListUITests.m */; };
+		21747D8F1EADE66900D0B875 /* GPFRankingListRouletteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21747D8E1EADE66900D0B875 /* GPFRankingListRouletteView.m */; };
+		21747D921EADE6C900D0B875 /* GPFRankingListHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 21747D911EADE6C900D0B875 /* GPFRankingListHandler.m */; };
+		21747D951EADED8700D0B875 /* GPFRankingListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21747D941EADED8700D0B875 /* GPFRankingListModel.m */; };
+		2186F3E61EB9A7B800D79801 /* imageNULL.png in Resources */ = {isa = PBXBuildFile; fileRef = 2186F3E41EB9A7B800D79801 /* imageNULL.png */; };
+		2186F3E81EB9A96300D79801 /* imageLoading.png in Resources */ = {isa = PBXBuildFile; fileRef = 2186F3E71EB9A96300D79801 /* imageLoading.png */; };
+		2186F4061EB9B61500D79801 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2186F4021EB9B61500D79801 /* 0.png */; };
+		2186F4071EB9B61500D79801 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2186F4031EB9B61500D79801 /* 1.png */; };
+		2186F4081EB9B61500D79801 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2186F4041EB9B61500D79801 /* 2.png */; };
+		2186F4091EB9B61500D79801 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2186F4051EB9B61500D79801 /* 3.png */; };
+		2186F4101EB9B66200D79801 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2186F40A1EB9B66200D79801 /* 4.png */; };
+		2186F4111EB9B66200D79801 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2186F40B1EB9B66200D79801 /* 5.png */; };
+		2186F4121EB9B66200D79801 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2186F40C1EB9B66200D79801 /* 6.png */; };
+		2186F4131EB9B66200D79801 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2186F40D1EB9B66200D79801 /* 7.png */; };
+		2186F4141EB9B66200D79801 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 2186F40E1EB9B66200D79801 /* 8.png */; };
+		2186F4151EB9B66200D79801 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 2186F40F1EB9B66200D79801 /* 9.png */; };
+		21B3D1C81EBB0A7D00321C92 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 21B3D1C71EBB0A7D00321C92 /* podfile */; };
+		21E7B9F51ED2EF84005D70CE /* rankingTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 21E7B9F41ED2EF84005D70CE /* rankingTitle.png */; };
+		896B36F556B1D4CC9E6A02BA /* libPods-GPFRankingList.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 787C4719DF9F9EE45EA0106A /* libPods-GPFRankingList.a */; };
+		C90D19B51EB735DA00D79E82 /* GPFDataCalculateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C90D19B41EB735DA00D79E82 /* GPFDataCalculateUtils.m */; };
+		C90D19B81EB7390700D79E82 /* GPFRankingListView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90D19B71EB7390700D79E82 /* GPFRankingListView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21747D701EADE3BB00D0B875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21747D4E1EADE3BA00D0B875 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21747D551EADE3BA00D0B875;
+			remoteInfo = GPFRankingList;
+		};
+		21747D7B1EADE3BB00D0B875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21747D4E1EADE3BA00D0B875 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21747D551EADE3BA00D0B875;
+			remoteInfo = GPFRankingList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D71C68C26ECF7EDE9882910 /* Pods-GPFRankingList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPFRankingList.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPFRankingList/Pods-GPFRankingList.release.xcconfig"; sourceTree = "<group>"; };
+		21747D561EADE3BA00D0B875 /* GPFRankingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPFRankingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21747D5A1EADE3BA00D0B875 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21747D5C1EADE3BA00D0B875 /* GPFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPFAppDelegate.h; sourceTree = "<group>"; };
+		21747D5D1EADE3BA00D0B875 /* GPFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPFAppDelegate.m; sourceTree = "<group>"; };
+		21747D5F1EADE3BA00D0B875 /* GPFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPFViewController.h; sourceTree = "<group>"; };
+		21747D601EADE3BA00D0B875 /* GPFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPFViewController.m; sourceTree = "<group>"; };
+		21747D631EADE3BB00D0B875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21747D651EADE3BB00D0B875 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21747D681EADE3BB00D0B875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21747D6A1EADE3BB00D0B875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21747D6F1EADE3BB00D0B875 /* GPFRankingListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPFRankingListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21747D731EADE3BB00D0B875 /* GPFRankingListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPFRankingListTests.m; sourceTree = "<group>"; };
+		21747D751EADE3BB00D0B875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21747D7A1EADE3BB00D0B875 /* GPFRankingListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPFRankingListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21747D7E1EADE3BB00D0B875 /* GPFRankingListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPFRankingListUITests.m; sourceTree = "<group>"; };
+		21747D801EADE3BB00D0B875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21747D8D1EADE66900D0B875 /* GPFRankingListRouletteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFRankingListRouletteView.h; sourceTree = "<group>"; };
+		21747D8E1EADE66900D0B875 /* GPFRankingListRouletteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFRankingListRouletteView.m; sourceTree = "<group>"; };
+		21747D901EADE6C900D0B875 /* GPFRankingListHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFRankingListHandler.h; sourceTree = "<group>"; };
+		21747D911EADE6C900D0B875 /* GPFRankingListHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFRankingListHandler.m; sourceTree = "<group>"; };
+		21747D931EADED8700D0B875 /* GPFRankingListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFRankingListModel.h; sourceTree = "<group>"; };
+		21747D941EADED8700D0B875 /* GPFRankingListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFRankingListModel.m; sourceTree = "<group>"; };
+		2186F3E41EB9A7B800D79801 /* imageNULL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageNULL.png; sourceTree = "<group>"; };
+		2186F3E71EB9A96300D79801 /* imageLoading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageLoading.png; sourceTree = "<group>"; };
+		2186F4021EB9B61500D79801 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		2186F4031EB9B61500D79801 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		2186F4041EB9B61500D79801 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		2186F4051EB9B61500D79801 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		2186F40A1EB9B66200D79801 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		2186F40B1EB9B66200D79801 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		2186F40C1EB9B66200D79801 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		2186F40D1EB9B66200D79801 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		2186F40E1EB9B66200D79801 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		2186F40F1EB9B66200D79801 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		21B3D1C71EBB0A7D00321C92 /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		21E7B9F41ED2EF84005D70CE /* rankingTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rankingTitle.png; sourceTree = "<group>"; };
+		787C4719DF9F9EE45EA0106A /* libPods-GPFRankingList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPFRankingList.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A613EFF3EE415DA3E793A5EE /* Pods-GPFRankingList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPFRankingList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPFRankingList/Pods-GPFRankingList.debug.xcconfig"; sourceTree = "<group>"; };
+		C90D19B31EB735DA00D79E82 /* GPFDataCalculateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFDataCalculateUtils.h; sourceTree = "<group>"; };
+		C90D19B41EB735DA00D79E82 /* GPFDataCalculateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFDataCalculateUtils.m; sourceTree = "<group>"; };
+		C90D19B61EB7390700D79E82 /* GPFRankingListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPFRankingListView.h; sourceTree = "<group>"; };
+		C90D19B71EB7390700D79E82 /* GPFRankingListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPFRankingListView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21747D531EADE3BA00D0B875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896B36F556B1D4CC9E6A02BA /* libPods-GPFRankingList.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21747D6C1EADE3BB00D0B875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21747D771EADE3BB00D0B875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EE198A1B55A53190355987F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				787C4719DF9F9EE45EA0106A /* libPods-GPFRankingList.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21747D4D1EADE3BA00D0B875 = {
+			isa = PBXGroup;
+			children = (
+				21B3D1C71EBB0A7D00321C92 /* podfile */,
+				21747D581EADE3BA00D0B875 /* GPFRankingList */,
+				21747D721EADE3BB00D0B875 /* GPFRankingListTests */,
+				21747D7D1EADE3BB00D0B875 /* GPFRankingListUITests */,
+				21747D571EADE3BA00D0B875 /* Products */,
+				7EBB546BE58D1F93B317783F /* Pods */,
+				1EE198A1B55A53190355987F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21747D571EADE3BA00D0B875 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21747D561EADE3BA00D0B875 /* GPFRankingList.app */,
+				21747D6F1EADE3BB00D0B875 /* GPFRankingListTests.xctest */,
+				21747D7A1EADE3BB00D0B875 /* GPFRankingListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21747D581EADE3BA00D0B875 /* GPFRankingList */ = {
+			isa = PBXGroup;
+			children = (
+				21D530751EB3298B0086171A /* Resources */,
+				21747D5C1EADE3BA00D0B875 /* GPFAppDelegate.h */,
+				21747D5D1EADE3BA00D0B875 /* GPFAppDelegate.m */,
+				21747D5F1EADE3BA00D0B875 /* GPFViewController.h */,
+				21747D601EADE3BA00D0B875 /* GPFViewController.m */,
+				21747D8C1EADE41B00D0B875 /* GPFRankingListView */,
+				21747D621EADE3BB00D0B875 /* Main.storyboard */,
+				21747D651EADE3BB00D0B875 /* Assets.xcassets */,
+				21747D671EADE3BB00D0B875 /* LaunchScreen.storyboard */,
+				21747D6A1EADE3BB00D0B875 /* Info.plist */,
+				21747D591EADE3BA00D0B875 /* Supporting Files */,
+			);
+			path = GPFRankingList;
+			sourceTree = "<group>";
+		};
+		21747D591EADE3BA00D0B875 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21747D5A1EADE3BA00D0B875 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21747D721EADE3BB00D0B875 /* GPFRankingListTests */ = {
+			isa = PBXGroup;
+			children = (
+				21747D731EADE3BB00D0B875 /* GPFRankingListTests.m */,
+				21747D751EADE3BB00D0B875 /* Info.plist */,
+			);
+			path = GPFRankingListTests;
+			sourceTree = "<group>";
+		};
+		21747D7D1EADE3BB00D0B875 /* GPFRankingListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21747D7E1EADE3BB00D0B875 /* GPFRankingListUITests.m */,
+				21747D801EADE3BB00D0B875 /* Info.plist */,
+			);
+			path = GPFRankingListUITests;
+			sourceTree = "<group>";
+		};
+		21747D8C1EADE41B00D0B875 /* GPFRankingListView */ = {
+			isa = PBXGroup;
+			children = (
+				21747D8D1EADE66900D0B875 /* GPFRankingListRouletteView.h */,
+				21747D8E1EADE66900D0B875 /* GPFRankingListRouletteView.m */,
+				C90D19B31EB735DA00D79E82 /* GPFDataCalculateUtils.h */,
+				C90D19B41EB735DA00D79E82 /* GPFDataCalculateUtils.m */,
+				21747D901EADE6C900D0B875 /* GPFRankingListHandler.h */,
+				21747D911EADE6C900D0B875 /* GPFRankingListHandler.m */,
+				21747D931EADED8700D0B875 /* GPFRankingListModel.h */,
+				21747D941EADED8700D0B875 /* GPFRankingListModel.m */,
+				C90D19B61EB7390700D79E82 /* GPFRankingListView.h */,
+				C90D19B71EB7390700D79E82 /* GPFRankingListView.m */,
+			);
+			path = GPFRankingListView;
+			sourceTree = "<group>";
+		};
+		21D530751EB3298B0086171A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21D530761EB3298B0086171A /* pictures */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		21D530761EB3298B0086171A /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				2186F40A1EB9B66200D79801 /* 4.png */,
+				2186F40B1EB9B66200D79801 /* 5.png */,
+				2186F40C1EB9B66200D79801 /* 6.png */,
+				2186F40D1EB9B66200D79801 /* 7.png */,
+				2186F40E1EB9B66200D79801 /* 8.png */,
+				2186F40F1EB9B66200D79801 /* 9.png */,
+				2186F4021EB9B61500D79801 /* 0.png */,
+				2186F4031EB9B61500D79801 /* 1.png */,
+				2186F4041EB9B61500D79801 /* 2.png */,
+				2186F4051EB9B61500D79801 /* 3.png */,
+				21E7B9F41ED2EF84005D70CE /* rankingTitle.png */,
+				2186F3E71EB9A96300D79801 /* imageLoading.png */,
+				2186F3E41EB9A7B800D79801 /* imageNULL.png */,
+			);
+			path = pictures;
+			sourceTree = "<group>";
+		};
+		7EBB546BE58D1F93B317783F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A613EFF3EE415DA3E793A5EE /* Pods-GPFRankingList.debug.xcconfig */,
+				1D71C68C26ECF7EDE9882910 /* Pods-GPFRankingList.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21747D551EADE3BA00D0B875 /* GPFRankingList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21747D831EADE3BB00D0B875 /* Build configuration list for PBXNativeTarget "GPFRankingList" */;
+			buildPhases = (
+				3D7A303D42A85568C444AA20 /* [CP] Check Pods Manifest.lock */,
+				21747D521EADE3BA00D0B875 /* Sources */,
+				21747D531EADE3BA00D0B875 /* Frameworks */,
+				21747D541EADE3BA00D0B875 /* Resources */,
+				362B5F107B6417CF76777968 /* [CP] Embed Pods Frameworks */,
+				6481E8C8C72E60EF1B24C7FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPFRankingList;
+			productName = GPFRankingList;
+			productReference = 21747D561EADE3BA00D0B875 /* GPFRankingList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21747D6E1EADE3BB00D0B875 /* GPFRankingListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21747D861EADE3BB00D0B875 /* Build configuration list for PBXNativeTarget "GPFRankingListTests" */;
+			buildPhases = (
+				21747D6B1EADE3BB00D0B875 /* Sources */,
+				21747D6C1EADE3BB00D0B875 /* Frameworks */,
+				21747D6D1EADE3BB00D0B875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21747D711EADE3BB00D0B875 /* PBXTargetDependency */,
+			);
+			name = GPFRankingListTests;
+			productName = GPFRankingListTests;
+			productReference = 21747D6F1EADE3BB00D0B875 /* GPFRankingListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21747D791EADE3BB00D0B875 /* GPFRankingListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21747D891EADE3BB00D0B875 /* Build configuration list for PBXNativeTarget "GPFRankingListUITests" */;
+			buildPhases = (
+				21747D761EADE3BB00D0B875 /* Sources */,
+				21747D771EADE3BB00D0B875 /* Frameworks */,
+				21747D781EADE3BB00D0B875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21747D7C1EADE3BB00D0B875 /* PBXTargetDependency */,
+			);
+			name = GPFRankingListUITests;
+			productName = GPFRankingListUITests;
+			productReference = 21747D7A1EADE3BB00D0B875 /* GPFRankingListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21747D4E1EADE3BA00D0B875 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "guo-pf";
+				TargetAttributes = {
+					21747D551EADE3BA00D0B875 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = PZHCE99V2E;
+					};
+					21747D6E1EADE3BB00D0B875 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = PZHCE99V2E;
+						TestTargetID = 21747D551EADE3BA00D0B875;
+					};
+					21747D791EADE3BB00D0B875 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = PZHCE99V2E;
+						TestTargetID = 21747D551EADE3BA00D0B875;
+					};
+				};
+			};
+			buildConfigurationList = 21747D511EADE3BA00D0B875 /* Build configuration list for PBXProject "GPFRankingList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21747D4D1EADE3BA00D0B875;
+			productRefGroup = 21747D571EADE3BA00D0B875 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21747D551EADE3BA00D0B875 /* GPFRankingList */,
+				21747D6E1EADE3BB00D0B875 /* GPFRankingListTests */,
+				21747D791EADE3BB00D0B875 /* GPFRankingListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21747D541EADE3BA00D0B875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2186F4111EB9B66200D79801 /* 5.png in Resources */,
+				2186F4131EB9B66200D79801 /* 7.png in Resources */,
+				2186F4091EB9B61500D79801 /* 3.png in Resources */,
+				2186F4151EB9B66200D79801 /* 9.png in Resources */,
+				2186F4061EB9B61500D79801 /* 0.png in Resources */,
+				21E7B9F51ED2EF84005D70CE /* rankingTitle.png in Resources */,
+				2186F3E81EB9A96300D79801 /* imageLoading.png in Resources */,
+				2186F4081EB9B61500D79801 /* 2.png in Resources */,
+				2186F4141EB9B66200D79801 /* 8.png in Resources */,
+				21747D691EADE3BB00D0B875 /* LaunchScreen.storyboard in Resources */,
+				2186F4121EB9B66200D79801 /* 6.png in Resources */,
+				21B3D1C81EBB0A7D00321C92 /* podfile in Resources */,
+				2186F4071EB9B61500D79801 /* 1.png in Resources */,
+				21747D661EADE3BB00D0B875 /* Assets.xcassets in Resources */,
+				21747D641EADE3BB00D0B875 /* Main.storyboard in Resources */,
+				2186F4101EB9B66200D79801 /* 4.png in Resources */,
+				2186F3E61EB9A7B800D79801 /* imageNULL.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21747D6D1EADE3BB00D0B875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21747D781EADE3BB00D0B875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		362B5F107B6417CF76777968 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPFRankingList/Pods-GPFRankingList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D7A303D42A85568C444AA20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6481E8C8C72E60EF1B24C7FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPFRankingList/Pods-GPFRankingList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21747D521EADE3BA00D0B875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21747D951EADED8700D0B875 /* GPFRankingListModel.m in Sources */,
+				21747D611EADE3BA00D0B875 /* GPFViewController.m in Sources */,
+				21747D8F1EADE66900D0B875 /* GPFRankingListRouletteView.m in Sources */,
+				21747D5E1EADE3BA00D0B875 /* GPFAppDelegate.m in Sources */,
+				C90D19B51EB735DA00D79E82 /* GPFDataCalculateUtils.m in Sources */,
+				C90D19B81EB7390700D79E82 /* GPFRankingListView.m in Sources */,
+				21747D921EADE6C900D0B875 /* GPFRankingListHandler.m in Sources */,
+				21747D5B1EADE3BA00D0B875 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21747D6B1EADE3BB00D0B875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21747D741EADE3BB00D0B875 /* GPFRankingListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21747D761EADE3BB00D0B875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21747D7F1EADE3BB00D0B875 /* GPFRankingListUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21747D711EADE3BB00D0B875 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21747D551EADE3BA00D0B875 /* GPFRankingList */;
+			targetProxy = 21747D701EADE3BB00D0B875 /* PBXContainerItemProxy */;
+		};
+		21747D7C1EADE3BB00D0B875 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21747D551EADE3BA00D0B875 /* GPFRankingList */;
+			targetProxy = 21747D7B1EADE3BB00D0B875 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21747D621EADE3BB00D0B875 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21747D631EADE3BB00D0B875 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21747D671EADE3BB00D0B875 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21747D681EADE3BB00D0B875 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21747D811EADE3BB00D0B875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21747D821EADE3BB00D0B875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21747D841EADE3BB00D0B875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A613EFF3EE415DA3E793A5EE /* Pods-GPFRankingList.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GPFRankingList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neusoft.GPFRankingList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21747D851EADE3BB00D0B875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D71C68C26ECF7EDE9882910 /* Pods-GPFRankingList.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GPFRankingList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neusoft.GPFRankingList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21747D871EADE3BB00D0B875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GPFRankingListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neusoft.GPFRankingListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPFRankingList.app/GPFRankingList";
+			};
+			name = Debug;
+		};
+		21747D881EADE3BB00D0B875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GPFRankingListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neusoft.GPFRankingListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPFRankingList.app/GPFRankingList";
+			};
+			name = Release;
+		};
+		21747D8A1EADE3BB00D0B875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GPFRankingListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neusoft.GPFRankingListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GPFRankingList;
+			};
+			name = Debug;
+		};
+		21747D8B1EADE3BB00D0B875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GPFRankingListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neusoft.GPFRankingListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GPFRankingList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21747D511EADE3BA00D0B875 /* Build configuration list for PBXProject "GPFRankingList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21747D811EADE3BB00D0B875 /* Debug */,
+				21747D821EADE3BB00D0B875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21747D831EADE3BB00D0B875 /* Build configuration list for PBXNativeTarget "GPFRankingList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21747D841EADE3BB00D0B875 /* Debug */,
+				21747D851EADE3BB00D0B875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21747D861EADE3BB00D0B875 /* Build configuration list for PBXNativeTarget "GPFRankingListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21747D871EADE3BB00D0B875 /* Debug */,
+				21747D881EADE3BB00D0B875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21747D891EADE3BB00D0B875 /* Build configuration list for PBXNativeTarget "GPFRankingListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21747D8A1EADE3BB00D0B875 /* Debug */,
+				21747D8B1EADE3BB00D0B875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21747D4E1EADE3BA00D0B875 /* Project object */;
+}
